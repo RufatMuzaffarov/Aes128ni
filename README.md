@@ -42,6 +42,6 @@
     
     static void ak_aes128_decrypt(ak_skey skey, ak_pointer in, ak_pointer out)
     
-Функция для тестирования работоспособности (параметры взяты из стандарта AES FIPS 197), продублировано в файле `test-aes128.c`:
+Функция для тестирования работоспособности (параметры взяты из стандарта AES FIPS 197):
 
     void ak_aes128ni_tests()
