@@ -16,9 +16,9 @@
         
 * Добавлено описание следующих функций в файл `libakrypt.h`:
 
-        ak_libakrypt_test_aes128( void )            на строке 173
+        void ak_aes128ni_tests(void)                  на строке 182
         
-        int ak_bckey_create_aes128( ak_bckey )      на строке 684
+        int ak_bckey_create_aes( ak_bckey bkey )      на строке 693
     
 Файл `ak_aes128ni.c` содержит реализацию алгоритма блочного шифрования AES128ni. 
 
